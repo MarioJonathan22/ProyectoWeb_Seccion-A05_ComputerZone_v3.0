@@ -1,0 +1,99 @@
+1.1
+http://subacom.com.pe/product/mb-asrock-b450m-pro-f-amd-am4-ddr4/
+
+PLACA MADRE ASROCK B450M PRO4-F, AMD AM4, DDR4
+MARCA: ASROCK
+
+MODELO: B450M PRO-F
+
+SOCKET: AMD AM4
+
+TIPO DE MOTHERBOARD: Micro  ATX
+
+1.2
+http://subacom.com.pe/product/mb-asrock-b550m-hdv-amd-am4-ddr4/
+
+PLACA MADRE ASROCK B550M-HDV, AMD AM4, DDR4
+MARCA: ASROCK
+
+MODELO: B550M-HDV
+
+SOCKET: AMD AM4
+
+TIPO DE MOTHERBOARD: Micro  ATX
+
+1.3
+http://subacom.com.pe/product/mb-gigabyte-a520m-s2h-rgb-fusion-2-0-amd-am4-ddr4/
+
+PLACA MADRE Gigabyte A520M S2H, RGB FUSION 2.0, AMD AM4, DDR4
+MARCA: Gigabyte
+
+MODELO: A520M S2H
+
+SOCKET: AM4
+
+TIPO DE MOTHERBOARD: Micro ATX
+
+1.4
+
+http://subacom.com.pe/product/mb-gigabyte-x570-ud-amd-am4-ddr4/
+
+PLACA MADRE Gigabyte X570 UD, AMD AM4, DDR4
+MARCA: Gigabyte
+
+MODELO: X570 UD
+
+SOCKET: AM4
+
+TIPO DE MOTHERBOARD: ATX
+
+1.5
+http://subacom.com.pe/product/mb-asus-prime-a320m-k-amd-am4-ddr4/
+
+PLACA MADRE ASUS PRIME A320M-K, AMD AM4, DDR4
+MARCA: ASUS
+
+MODELO: PRIME A320M-K
+
+SOCKET: AMD AM4
+
+TIPO DE MOTHERBOARD: Micro ATX
+
+1.6
+http://subacom.com.pe/product/placa-madre-asus-prime-b450m-a-ii-amd-am4-ddr4-micro-atx/
+
+PLACA MADRE ASUS PRIME B450M-A II, AMD AM4, DDR4, MICRO ATX
+MARCA: GIGABYTE
+
+MODELO: PRIME B450M-A II
+
+SOCKET:  AMD AM4
+
+TIPO DE MOTHERBOARD: MICRO ATX
+
+1.7
+http://subacom.com.pe/product/placa-madre-asus-rog-strix-b550-f-gaming-amd-am4-ddr4-atx/
+
+PLACA MADRE ASUS ROG STRIX B550-F GAMING, AMD AM4, DDR4, ATX
+MARCA: ASUS
+
+MODELO: ROG STRIX B550-F GAMING
+
+SOCKET:  AMD AM4
+
+TIPO DE MOTHERBOARD: ATX
+
+1.8
+http://subacom.com.pe/product/mb-msi-b450m-pro-m2-max-amd-am4-ddr4/
+
+PLACA MADRE MSI B450M PRO-M2 MAX, AMD AM4, DDR4
+MARCA: MSI
+
+MODELO: B450M PRO-M2 MAX
+
+SOCKET: AMD AM4
+
+TIPO DE MOTHERBOARD: Micro ATX
+
+1.9
+

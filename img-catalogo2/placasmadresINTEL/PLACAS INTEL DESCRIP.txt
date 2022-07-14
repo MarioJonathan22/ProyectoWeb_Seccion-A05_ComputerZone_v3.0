@@ -1,0 +1,104 @@
+1.4
+http://subacom.com.pe/product/mb-gigabyte-h510m-h-intel-lga-1200-ddr4/
+
+PLACA MADRE Gigabyte H510M H, INTEL LGA 1200, DDR4
+
+MARCA: Gigabyte
+
+MODELO: H510M H
+
+SOCKET: LGA 1200
+
+TIPO DE MOTHERBOARD: Micro ATX
+
+1.5
+http://subacom.com.pe/product/mb-gigagyte-b560m-aorus-elite-intel-lga-1200-ddr4/
+
+PLACA MADRE GIGAGYTE B560M AORUS ELITE, INTEL LGA 1200, DDR4
+
+MARCA: MSI
+
+MODELO: B560M AORUS ELITE
+
+SOCKET: LGA 1200
+
+TIPO DE MOTHERBOARD: Micro ATX
+
+1.6
+http://subacom.com.pe/product/mb-gigabyte-z390-d-intel-lga-1151-ddr4/
+
+PLACA MADRE Gigabyte Z390 D, INTEL LGA 1151, DDR4
+
+MARCA: Gigabyte
+
+MODELO: Z390 D
+
+SOCKET: LGA 1151
+
+TIPO DE MOTHERBOARD: ATX
+
+1.7
+http://subacom.com.pe/product/mb-asus-prime-h510m-e-intel-lga-1200-ddr4/
+
+PLACA MADRE ASUS PRIME H510M-E, INTEL LGA 1200, DDR4
+
+MARCA: ASUS
+
+MODELO: PRIME H510M-E
+
+SOCKET: LGA 1200
+
+TIPO DE MOTHERBOARD: Micro ATX
+
+1.8
+http://subacom.com.pe/product/mb-asus-prime-b365m-a-intel-lga-1200-ddr4/
+
+PLACA MADRE ASUS PRIME B365M-A, INTEL LGA 1200, DDR4
+MARCA: ASUS
+
+MODELO: PRIME B365M-A
+
+SOCKET: LGA 1151
+
+TIPO DE MOTHERBOARD: Micro ATX
+
+1.9
+http://subacom.com.pe/product/mb-asus-rog-strix-b460-h-intel-lga-1200-ddr4/
+
+PLACA MADRE ASUS ROG STRIX B460-H GAMING, INTEL LGA 1200, DDR4
+MARCA: ASUS
+
+MODELO: ROG STRIX B460-H
+
+SOCKET: LGA 1200
+
+TIPO DE MOTHERBOARD: ATX
+
+1.10
+http://subacom.com.pe/product/mb-msi-b560m-a-pro-intel-lga-1200-ddr4/
+
+PLACA MADRE MSI B560M-A PRO, INTEL LGA 1200, DDR4
+MARCA: MSI
+
+MODELO: B560M-A PRO
+
+SOCKET: INTEL LGA 1200
+
+TIPO DE MOTHERBOARD: Micro ATX
+
+1.11
+http://subacom.com.pe/product/placa-madre-msi-mag-b560m-mortar-intel-lga1200-ddr4-micro-atx/
+
+PLACA MADRE MSI MAG B560M MORTAR, INTEL LGA1200, DDR4, MICRO ATX
+MARCA: MSI
+
+MODELO: MAG B560M MORTAR
+
+SOCKET:  INTEL LGA1200
+
+TIPO DE MOTHERBOARD: MICRO ATX
+
+1.12
+
+ 
+
