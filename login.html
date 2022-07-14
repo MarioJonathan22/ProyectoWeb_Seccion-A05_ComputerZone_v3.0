@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="icon" href="img/computerzone.jpg">
+        <link rel="stylesheet" href="css/login.css">
+        <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500;700&display=swap" rel="stylesheet">
+
+        <title>Login - ComputerZone</title>
+</head>
+<body>
+
+        <!---------------------- MENU PRINCIPAL ------------------------>
+
+        <header>
+                <nav>
+                        <a class="enlace" href="index.html">
+                                <img class="logo" src="img/logo-cz_4.png" width="400px" height="100px" alt="">
+                        </a>
+                        <ul class="menu">
+                                <li><a href="index.html">Inicio</a></li>
+                                <li><a href="nosotros.html">Nosotros</a></li>
+                                <li><a href="catalogo1.html">Catálogo</a></li>
+                                <li><a href="login.html">Login</a></li>
+                                <li><a href="ubicanos.html">Ubicanos</a></li>
+                                <li><a href="formulario PHP/contacto.html">Contacto</a></li>
+                                <li><a href="preg-frecuentes.html">Preguntas frecuentes</a></li>
+                        </ul>
+                </nav>
+        </header>
+
+        <section class="login">
+                <div>
+                        <video src="mp4/y2meta.com-Women Hand Typing on Keyboard-(1080p).mp4" autoplay muted loop></video>
+                </div>
+
+                <div class="capa"></div>
+
+                        <div class="contenido">
+                                <h1>Bienvenidos a ComputerZone</h1><br>
+                                <p> Ingrese usuario y contraseña</p>
+                        </div>
+
+                <form>
+                        <input type="text" id="usuario" placeholder="Usuario:" required value="">
+                        <input type="password" id="clave" placeholder="Contraseña:" required value="">
+                        
+                        <div class="boton">
+                                <input type="submit" id="submit" value="Ingresar" onclick="ingresar()">
+                        </div>
+
+                        <p>¿No tienes cuenta?</p><br>
+                        <p class="link"><a href="registrar.html">Registrate aqui</a></p>
+                </form>
+
+        </section>
+
+
+
+        <script>
+
+                function ingresar()
+                {
+                        var usuario = document.getElementById("usuario");
+                        var clave = document.getElementById("clave");
+
+                        if (usuario.value == "admin" && clave.value == "123")
+                        {
+                                alert("Bienvenido Sr. Administrador");
+                                window.open("intranet/index-2-ADMIN.html"); //ABRE EN UNA VENTAN NUEVA
+                                /*window.location = "intranet/index-acceso.html";*/ //NO FUNCIONA en la misma pagina
+                                /*window.location = "intranet/acceso.html";*/ //no funciona
+                        }
+                        else
+                        {
+                                alert("I N T R U S O")
+                        }
+                }
+
+
+                
+
+        </script>
+
+</body>
+</html>

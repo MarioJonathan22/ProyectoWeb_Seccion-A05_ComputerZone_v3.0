@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="img/computerzone.jpg">
+        <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+        <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/registrar.css">
+    <title>Registrase - ComputerZone</title>
+
+</head>
+<body>
+    <header>
+        <nav>
+                <a class="enlace" href="index.html">
+                        <img class="logo" src="img/logo-cz_4.png" width="400px" height="100px" alt="">
+                </a>
+                <ul class="menu">
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="nosotros.html">Nosotros</a></li>
+                        <li><a href="catalogo.html">Catálogo</a></li>
+                        <li><a href="login.html">Login</a></li>
+                        <li><a href="ubicanos.html">Ubicanos</a></li>
+                        <li><a href="formulario PHP/contacto.html">Contacto</a></li>
+                        <li><a href="preg-frecuentes.html">Preguntas frecuentes</a></li>
+                </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div>
+            <video src="mp4/y2meta.com-Women Hand Typing on Keyboard-(1080p).mp4" autoplay muted loop></video>
+        </div>
+
+        <form action="" class="formulario" id="formulario">
+            <h2>Llene el formulario para sus registro</h2>
+
+                <!-----------------------------------/ GRUPO: USUARIO /--------------------------------->
+                <div class="formulario__grupo" id="grupo__usuario">
+                        <label for="usuario" class="formulario__label">Usuario<span class="aviso"> (requerido)</span></label>
+                        <div class="formulario__grupo-input">
+                                <input type="text" class="formulario__input" name="usuario" id="usuario" placeholder="marioj_22">
+                                <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                        </div>
+                        <p class="formulario__input-error">El usuario tiene que ser de 4 a 16 digitos y solo puede contener letras, numeros y guion bajo.</p>
+                </div>
+
+                <!-----------------------------------/ GRUPO: NOMBRE /--------------------------------->
+                <div class="formulario__grupo" id="grupo__nombre">
+                        <label for="nombre" class="formulario__label">Nombre<span class="aviso"> (requerido)</span></label>
+                        <div class="formulario__grupo-input">
+                                <input type="text" class="formulario__input" name="nombre" id="nombre" placeholder="Mario Jonathan">
+                                <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                        </div>
+                        <p class="formulario__input-error">El usuario tiene que ser de 4 a 16 digitos y solo puede contener numeros y guion bajo.</p>
+                </div>
+
+                <!-----------------------------------/ GRUPO: CONTRASEÑA /--------------------------------->
+                <div class="formulario__grupo" id="grupo__password">
+                        <label for="password" class="formulario__label">Contraseña<span class="aviso"> (requerido)</span></label>
+                        <div class="formulario__grupo-input">
+                                <input type="password" class="formulario__input" name="password" id="password">
+                                <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                        </div>
+                        <p class="formulario__input-error">La contraseña tiene que ser de 4 a 12 digitos.</p>
+                </div>
+
+                <!-----------------------------------/ GRUPO: REPETIR CONTRASEÑA /--------------------------------->
+                <div class="formulario__grupo" id="grupo__password2">
+                        <label for="password2" class="formulario__label">Repetir Contraseña<span class="aviso"> (requerido)</span></label>
+                        <div class="formulario__grupo-input">
+                                <input type="password" class="formulario__input" name="password2" id="password2">
+                                <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                        </div>
+                        <p class="formulario__input-error">Ambas contraseñas deben ser iguales.</p>
+                </div>
+
+                <!-----------------------------------/ GRUPO: CORREO ELECTRONICO /--------------------------------->
+                <div class="formulario__grupo" id="grupo__correo">
+                    <label for="correo" class="formulario__label">Correo Electrónico<span class="aviso"> (requerido)</span></label>
+                    <div class="formulario__grupo-input">
+                            <input type="email" class="formulario__input" name="correo" id="correo" placeholder="ejemplo@correo.com">
+                            <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                    </div>
+                    <p class="formulario__input-error">El correo solo puede contener letras, numeros, punjtos, guiones y guion bajo.</p>
+                </div>
+
+                <!-----------------------------------/ GRUPO: TELEFONO /--------------------------------->
+                <div class="formulario__grupo" id="grupo__telefono">
+                    <label for="telefono" class="formulario__label">Telefono<span class="aviso"> (requerido)</span></label>
+                    <div class="formulario__grupo-input">
+                            <input type="text" class="formulario__input" name="telefono" id="telefono" placeholder="987654321">
+                            <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                    </div>
+                    <p class="formulario__input-error">El telefono solo puede contener numeros y como maximo 14 digitos.</p>
+                </div>
+
+                <!------------------------------/ GRUPO: TERMINOS Y CONDICIONES /---------------------------->
+                <div class="formulario__grupo-terminos" id="grupo__terminos"><!-- aqui se agrego "terminos" a la clase segun min (33:15)-->
+                    <label class="formulario__label">
+                            <input class="formulario__checkbox" type="checkbox" name="terminos" id="terminos">
+                            Acepto los Terminos y Condiciones
+                    </label>
+                    </div>
+
+                <!------------------------------/ GRUPO: MENSAJE /---------------------------->
+                <div class="formulario__mensaje" id="formulario__mensaje">
+                        <p><i class="fas fa-exclamation-triangle"></i><b>Error:</b>Por favor rellene el formulario correctamente</p>
+                </div>
+
+                <!------------------------------/ GRUPO: BOTON REGISTRAR (ANTES ERA ENVIAR) /---------------------------->
+                <div class="formulario__grupo formulario__grupo-btn-enviar">
+                        <button type="submit" class="formulario__btn">Registrar</button>
+                        <p class="formulario__mensaje-exito" id="formulario__mensaje-exito">Formulario se envió exitosamente.</p>
+                </div>
+
+        </form>
+    </main>
+
+<script src="js/formulario.js"></script>
+<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+</body>
+</html>
