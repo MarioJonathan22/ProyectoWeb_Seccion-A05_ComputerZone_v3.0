@@ -1,0 +1,207 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-image: url(https://img.freepik.com/foto-gratis/representacion-fondo-futurista-abstracto-brillantes-luces-neon-azul-naranja_181624-19807.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Comfortaa';
+
+}
+
+/*====================/ menu / =====================*/
+header div img
+{
+    height: auto;
+    padding-bottom: -10px;
+}
+
+header, .main, footer
+{
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.menu
+{
+    width: 100%;
+    margin-top:  -20px;
+    background: #592792;
+}
+
+.menu ul
+{
+    list-style: none;
+    text-align: center;
+    border: 3px solid #D57500;
+}
+
+.menu li
+{
+    display: inline-block;
+}
+
+.menu li a
+{
+    display: block; /* al parecer, no hace nada porque es como por defecto*/
+    padding: 10px 30px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+header nav ul li a:hover
+{
+    background: #D57500;
+}
+
+/*======================/ carrusel /=====================*/
+body #carouselExampleIndicators
+{
+    width: 1000px;
+    margin: auto;
+    height: 70%;
+}
+
+/*======================/ cuerpo /=====================*/
+.main .articles
+{
+    width: 68.5%;
+    margin-right: 1.5%;
+    float: left;
+    margin-top: 0px;
+    color: white;
+    opacity: 0.9;
+    font-size: 20px;
+    text-align: center;
+}
+
+.main .articles .titulo2
+{
+    font-size: 25px;
+}
+
+.main .articles article
+{
+    margin-bottom: 20px;
+    padding: 20px;
+    background: #747679;
+    border-radius: 20px;
+    border: 3px solid #fff;
+}
+
+.main .articles1 .titulo3
+{
+    font-size: 25px;
+}
+
+/*======================/ derecho marcas /=====================*/
+aside
+{
+    width: 30%;
+    background: #7B241C;
+    float: right;
+    padding: 3px 20px;
+    box-sizing: border-box;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    border: 3px solid #D57500;
+    opacity: 0.9;
+    font-size: 18px;
+}
+
+.main .video h2
+{
+    background-color: #747679;
+    width: 1000px;
+    padding: 10px 0;
+    border-radius: 20px;
+    border: 3px solid #fff;
+}
+
+.main .video iframe
+{
+    width: 1000px;
+    height: 700px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+}
+
+.main .map h2
+{
+    background-color: #747679;
+    width: 1000px;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 20px;
+    border: 3px solid #fff;
+}
+
+.main .map iframe
+{
+    width: 146%;
+    margin-top: 0;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+/*======================/ logos redes /=====================*/
+.redes
+{
+    width: 1000px;
+    background-color: #747679;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 20px;
+    border: 3px solid #fff;
+}
+
+marquee
+{
+    width: 146%;
+    margin: 10px 20px;
+}
+
+marquee img
+{
+    margin: 0 50px;
+    border-radius: 20px;
+}
+
+/*======================/ footer /=====================*/
+footer
+{
+    border-radius: 20px;
+    background: #7B241C;
+    color: #fff;
+    clear: both;
+    padding: 10px;
+    text-align: center;
+    border: 3px solid #D57500;
+    opacity: 0.9;
+}
+
+footer p
+{
+    margin: auto;
+    font-size: 20px;
+}
+
+/*======================/ RESPONSIVE /=====================*/
+@media screen and (max-width:760px)
+{
+    header .menu
+    {
+        justify-content: center;
+    }
+}

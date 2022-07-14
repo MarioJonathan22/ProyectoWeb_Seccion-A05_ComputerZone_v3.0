@@ -1,0 +1,51 @@
+
+@font-face {
+  font-family: 'TruenoBd';
+	src: url('../fonts/TruenoBd/TruenoBd.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/TruenoBd/TruenoBd.otf')  format('opentype'),
+	url('../fonts/TruenoBd/TruenoBd.woff') format('woff'), 
+	url('../fonts/TruenoBd/TruenoBd.ttf')  format('truetype'), 
+	url('../fonts/TruenoBd/TruenoBd.svg#TruenoBd') format('svg');
+ 	font-weight: normal;
+  	font-style: normal;
+}
+@font-face {
+	font-family: 'TruenoRg';
+	src: url('../fonts/TruenoRg/TruenoRg.eot') format('embedded-opentype'),
+	url('../fonts/TruenoRg/TruenoRg.woff') format('woff'), 
+	url('../fonts/TruenoRg/TruenoRg.ttf') format('truetype'), 
+	url('../fonts/TruenoRg/TruenoRg.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'TruenoLt';
+	src: url('../fonts/TruenoLt/TruenoLt.eot') format('embedded-opentype'),
+	url('../fonts/TruenoLt/TruenoLt.woff') format('woff'),
+	url('../fonts/TruenoLt/TruenoLt.ttf') format('truetype'), 
+	url('../fonts/TruenoLt/TruenoLt.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'TruenoUltLt';
+	src: url('../fonts/TruenoUltLt/TruenoUltLt.eot') format('embedded-opentype'),
+	url('../fonts/TruenoUltLt/TruenoUltLt.woff') format('woff'),
+	url('../fonts/TruenoUltLt/TruenoUltLt.ttf') format('truetype'),
+	url('../fonts/TruenoUltLt/TruenoUltLt.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+
+   @font-face {
+   font-family: 'opensans-semibold';
+   src: url('fonts/opensans/OpenSans-Semibold-webfont.svg#open_sanssemibold') format('svg');
+   }
+
+   @font-face {
+   font-family: 'opensans-bold';
+   src: url('fonts/opensans/OpenSans-Bold-webfont.svg#open_sansbold') format('svg');
+   }
+
+

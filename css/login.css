@@ -1,0 +1,171 @@
+
+/*--------------------/ BARRA MENU PRINCIPAL /-------------------*/
+
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body
+{
+    font-family: "comfortaa";
+}
+
+header
+{
+    background: rgb(97, 97, 97); /* fondo de color del menu*/
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    z-index: 3;
+}
+
+nav
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 50px;
+}
+
+.menu
+{
+    display: flex;
+}
+
+.menu li
+{
+    margin: 10px;
+}
+
+.menu li a
+{
+    color:  white;
+    font-weight: bold;
+    transition: all 0.5s ease;
+    font-size: 20px;
+    border-radius: 20px;
+
+}
+
+.menu li a:hover
+{
+    background: red;
+    padding: 10px 10px;
+    border: 3px solid white;
+    color: white;
+}
+
+/*=========================== PARTE DEL LOGIN ======================*/
+
+section.login
+{
+    min-height: 100vh;
+    position: relative;
+}
+
+section.login video
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* hara ocupar el width y el height al 100%, sin barras de desplazamiento y ademas será RESPONSIVE*/
+}
+
+section div.capa
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #1c1c1d;
+    opacity: 0.5;
+    /*mix-blend-mode: overlay; /*hace oscurecer o aclarar la capa dependiendo del color del fondo, porque en los videos los colores van cambiando*/
+}
+
+section div.contenido
+{
+    padding-top: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+    color: white;
+    position: relative;
+    z-index: 2;
+    font-size: 20px;
+}
+
+/*====================FORMULARIO===================*/
+
+form /*cuadro de formulario blanco */
+{
+    position: relative;
+    background-color: white; opacity: 0.8;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    margin: 30px auto;
+}
+
+form input
+{
+    font-size: 18px;
+    color: red;
+    margin: 15px;
+    font-weight: 600;
+}
+
+form input[type="text"], form input[type="password"] /*cuadros de texto y contraseña*/
+{
+    margin-top: 20px;
+    padding: 5px;
+    color: red bold;
+    font-size: 18px;
+    width: 70%;
+    border-radius: 10px;
+    border-color: red;
+    background:white;
+}
+
+form .boton input[type="submit"]
+{
+    padding: 5px;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+}
+
+form .boton input[type="submit"]:hover
+{
+    background: red;
+    color: #fff;
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+form p.link
+{
+    margin-bottom: 10px;
+}
+
+form p.link a
+{
+    color: red;
+    margin-bottom: 50px;
+    font-weight: 900;
+    font-size: 20px;
+}

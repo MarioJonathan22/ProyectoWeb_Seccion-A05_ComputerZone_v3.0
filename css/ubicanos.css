@@ -1,0 +1,227 @@
+/*===============/ BARRA MENU /==================*/
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body
+{
+    /*background: rgb(235, 235, 235);*/
+    font-family: "comfortaa";
+
+}
+
+nav
+{
+    background: rgb(97, 97, 97); /* fondo de color del menu*/
+    height: 100px; /* por el tamaño de la imagen*/
+    width: 100%;
+    top: 0%;
+    position: fixed;
+    z-index: 1000;
+}
+
+nav .enlace
+{
+    position: absolute; /* es como ponerse encima pero en su unico lugar*/
+    margin-left: 50px;
+}
+
+nav .enlace .logo /*dimension del logo*/
+{
+
+    width: 100%;
+}
+
+nav ul
+{
+    float: right;
+    margin-right: 50px;
+}
+
+nav ul li
+{
+    display: inline-block;
+    line-height: 100px; /* desde arriba de la linea donde estan los link hacia abajo (cae justo al medio del  nav) */
+}
+
+nav ul li a
+{
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 10px 10px;
+    border-radius: 30px;
+    transition: all 0.3s;
+
+}
+
+nav ul li a:hover
+{
+    background: red;
+    border: 3px solid white;
+    color: white;
+}
+
+/* ================== SECCION PNG ====================== */
+
+section.png
+{
+
+    margin: 150px 0 50px 0;
+
+}
+
+section .conjunto
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.col-3
+{
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center; /*DEACTIVADO, para que todo los elementos esten pegaod arriba*/
+    text-align: center;
+    /*background: green;*/
+    padding: 0 30px;
+}
+
+#figura
+{
+    font-size: 70px;
+    padding-bottom: 20px;
+    filter: invert(18%) sepia(80%) saturate(6808%) hue-rotate(357deg) brightness(99%) contrast(116%);
+}
+
+
+/* ================== SECCION MAPA ====================== */
+
+section.mapa
+{
+    
+    color: red;
+    font-weight: bolder;
+}
+
+section.mapa h3
+{
+    text-align: center;
+}
+
+section.mapa iframe
+{
+    width: 100%;
+    height: 500px;
+}
+
+
+
+
+
+/* ================== FOOTER ====================== */
+
+footer
+{
+    font-size: 15px;
+    max-width: 100%;
+    width: 100%;
+}
+
+footer .final
+{
+    background-color: rgb(156, 155, 155); opacity: 0.9;
+    padding: 20px 0;
+}
+
+footer .final .fila
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+footer .logo-footer
+{
+    width: 100%;
+}
+
+footer ul
+{
+    padding-left: 0;
+    list-style: none;
+}
+
+footer ul li
+{
+    margin: 10px 0;
+}
+
+footer a
+{
+    text-decoration: none;
+}
+
+footer .redes li a
+{
+    font-size: 15px;
+    color: #000;
+}
+
+/* ========/ PEQUEÑO FORMULARIO /========= */
+form
+{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 90%;
+}
+
+form input[type="text"], form input[type="email"], form textarea
+{
+    margin: 1px 0;
+    padding: 5px 5px;
+    border-radius: 10px;
+    color: rgb(204, 5, 5);
+    font-weight: 600;
+    font-family: 'Comfortaa';    
+    font-size: 15px;
+}
+
+form textarea
+{
+    height: 100px;
+    border-radius: 10px;
+}
+
+form .boton
+{
+    display: flex;
+    justify-content: flex-end;
+}
+
+form .boton input[type="submit"]
+{
+    display: block;
+    margin: 5px 0;
+    padding: 5px 5px;
+    background: none;
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+form .boton input[type="submit"]:hover
+{
+    background: #D57500;
+}

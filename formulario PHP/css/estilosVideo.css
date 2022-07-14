@@ -1,0 +1,37 @@
+.video_responsive{
+	height:0;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	position: relative;
+}
+.video_responsive iframe, .video_responsive object, .video_responsive embed, .video_responsive video{
+	height: 100%;
+	left:0;
+	top: 0;
+	width:100%;
+	position:absolute;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

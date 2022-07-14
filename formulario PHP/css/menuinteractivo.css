@@ -1,0 +1,26 @@
+/* codigo menu interactivo */
+/*1.Nos permite alinear y centrar nuestra pagina web*/
+*{ margin:0px; padding: 0px;}
+/*2.Nos permite darle un tamaño a nuestro estilo de fuente*/
+p{	margin-bottom: 15px;}
+/*3.Aliniando el tamaño del Ancho del Menu % Significa 
+Adaptar el tamaño del ancho de la pagina web.*/
+.wrapper{ margin:auto; width:100%; overflow: hidden; }
+/*4.Menu lo estamos colocando estatico  gracias position:fixed nos permite
+ lograrlo */
+header{background:#F72B2E; width:100%; position:fixed; z-index: 10;}
+/*5.Menu lo estamos alineando al lado izquierdo de nuestra pagina principal*/
+nav{  float:left; }
+/*6.al menu no le colocamos ningun estilo personalizado */
+nav ul{	list-style: none; overflow:hidden;}
+/*7.al menu le declaramos la fuente de letra y sus medidas*/
+nav ul li{ font-family:Arial,sans-serif; font-size:16px; float:left;}
+/*8.al menu le asignamos un color a la viñetas y a los hipervinculos*/
+nav ul li a { padding: 20px; color:rgb(255,255,255);
+text-decoration:none; display: block;}
+/*9 al menu le asinamos un color de fondo hover:se activa a mover el mouse*/
+nav ul li:hover { background:#FBF9F9;}
+/*10.nos va a permitir a linea todo el contenido a la pagina web me refiero
+a las imagenes , videos.*/
+.contenido{ padding-top: 50px;}
+header2{ width:100%; position:fixed; z-index: 15;}

@@ -1,0 +1,381 @@
+/*===============/ BARRA MENU /==================*/
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body
+{
+    background: white;
+    font-family: "comfortaa";
+}
+
+nav
+{
+    background: rgb(97, 97, 97); /* fondo de color del menu*/
+    height: 100px; /* por el tamaño de la imagen*/
+    width: 100%;
+    top: 0%;
+    position: fixed;
+}
+
+nav .enlace
+{
+    position: absolute; /* es como ponerse encima pero en su unico lugar*/
+    margin-left: 50px;
+}
+
+nav .enlace .logo /*dimension del logo*/
+{
+
+    width: 100%;
+}
+
+nav ul
+{
+    float: right;
+    margin-right: 50px;
+}
+
+nav ul li
+{
+    display: inline-block;
+    line-height: 100px; /* desde arriba de la linea donde estan los link hacia abajo (cae justo al medio del  nav) */
+}
+
+nav ul li a
+{
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 10px 10px;
+    border-radius: 30px;
+    transition: all 0.3s;
+
+}
+
+nav ul li a:hover
+{
+    background: red;
+    border: 3px solid white;
+}
+
+/* =================================/ MENU SECUNDARIO /================================ */
+
+main div
+{
+    background: red;
+}
+
+main div div
+{
+    position: fixed;
+    top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+main div div li
+{
+    padding: 3px 15px;
+}
+
+main div div li a
+{
+    color: white;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+
+main div div li a:hover
+{
+    color: black;
+}
+
+
+/* ==================/ SECTION  /================== */
+
+section
+{
+
+    margin: 150px 0px 50px 0px;
+
+    display: flex;
+    flex-wrap: wrap;
+
+
+    justify-content: center;
+}
+
+section .foto
+{
+    display: flex;
+    justify-content: center;
+}
+
+section img /*ANCHO Y ALTO DE LA FOTO EN DESCRICPION-COMPRAS*/
+{
+    width: 80%;
+    height: 80%;
+
+}
+
+section .contenido
+{
+    /*padding-left: 50px;*/ /*DESACTIVADO PARA QUE ESTE MAS JUNTO A LA IMAGEN*/
+    font-weight: 600;
+}
+
+
+
+.titulo
+{
+    font-size: 20px;
+}
+
+.descripcion
+{
+    font-weight: 1000;
+    color: black;
+    font-size: 15px;
+
+}
+
+.precio
+{
+    font-size: 40px;
+
+    font-weight: bolder;
+}
+.stock
+{
+    color: rgb(4, 209, 4);
+    font-weight: bolder;
+}
+
+.boton-buy
+{
+    padding: 5px 40px;
+    border-radius: 20px;
+    background: red;
+    color: white;
+    font-size: 20px;
+    border-color: red;
+    cursor: pointer;
+}
+
+.boton-buy:hover
+{
+    background: black;
+    border-color: black;
+}
+
+
+/* =============/ PRODUCTOS RELACIONADOS /============= */
+
+.otros
+{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+section.dos /*CON ESTO SE HIZO PARECIDO AL CATALOGO 2, EN FILA Y COLUMNAS*/
+{
+
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 50px;
+    display: flex;
+}
+
+a.foto
+{
+    display: block;
+    text-align: center;
+}
+
+h6
+{
+    color: rgb(0, 160, 0);
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+.categoria
+{
+    font-size: 12px;
+    color: #868686;
+}
+
+.titulo
+{
+    font-weight: bolder;
+    color: #000;
+
+}
+
+.precio
+{
+    padding: 10px 0;
+    color: red;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+/*----/ BOTON AÑADIR CARRITO /----=*/ 
+
+.añadir
+{
+    background: red;
+    padding: 10px 0;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+}
+
+.añadir:hover
+{
+    transition: all 0.3s ease;
+    background: #000;
+}
+
+.añadir a
+{
+    color: white;
+    font-weight: bolder;
+
+}
+
+/*--------------------------------=*/ 
+
+div.productos
+{
+    min-width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    /*flex: 80%; /*ancho de la lista de productos, DESACTIVADO para probar flex en MAIN (contenedor princiapl)*/
+    grid-template-columns: 4fr;
+}
+
+div.productos
+{
+    display: grid; /* para dividir los grupos*/ 
+    grid-template-columns: 1fr 1fr 1fr 1fr; /* columnas divididas en 4 */
+    gap: 30px;
+    padding: 20px 20px;
+}
+
+div ul li div a /*quitamos el subrayados de los links*/
+{
+    text-decoration: none;
+}
+
+
+
+/* ================== FOOTER ====================== */
+
+footer
+{
+
+    font-size: 20px;
+    max-width: 100%;
+}
+
+footer .final
+{
+    background-color: rgb(156, 155, 155); opacity: 0.9;
+    padding: 20px 0;
+}
+
+footer .final .fila
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+footer .logo-footer
+{
+    width: 100%;
+}
+
+footer ul
+{
+    padding-left: 0;
+    list-style: none;
+}
+
+footer ul li
+{
+    margin: 10px 0;
+}
+
+footer a
+{
+    text-decoration: none;
+}
+
+footer .redes
+{
+    font-size: 20px;
+}
+
+/* ========/ PEQUEÑO FORMULARIO /========= */
+form
+{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 90%;
+}
+
+form input[type="text"], form input[type="email"], form textarea
+{
+    margin: 1px 0;
+    padding: 5px 5px;
+    border-radius: 10px;
+    color: rgb(204, 5, 5);
+    font-weight: 600;
+    font-family: 'Comfortaa';    
+    font-size: 15px;
+}
+
+form textarea
+{
+    height: 100px;
+    border-radius: 10px;
+}
+
+form .boton
+{
+    display: flex;
+    justify-content: flex-end;
+}
+
+form .boton input[type="submit"]
+{
+    display: block;
+    margin: 5px 0;
+    padding: 5px 5px;
+    background: none;
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+form .boton input[type="submit"]:hover
+{
+    background: #D57500;
+}

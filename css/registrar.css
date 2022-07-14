@@ -1,0 +1,276 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body
+{
+	font-family: 'comfortaa';
+}
+
+main {
+	max-width: 800px;
+	width: 90%;
+	margin: auto;
+	padding: 40px;
+}
+
+/*======================/ HEADER /=======================*/
+header
+{
+    background: rgb(97, 97, 97); /* fondo de color del menu*/
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    z-index: 3;
+}
+
+nav
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 50px;
+}
+
+.menu
+{
+    display: flex;
+}
+
+.menu li
+{
+    margin: 10px;
+}
+
+.menu li a
+{
+    color:  white;
+    font-weight: bold;
+    transition: all 0.5s ease;
+    font-size: 20px;
+    border-radius: 20px;
+
+}
+
+.menu li a:hover
+{
+    background: red;
+    padding: 10px 10px;
+    border: 3px solid white;
+}
+
+/*=======================/ VIDEO /==========================*/
+main div video
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* hara ocupar el width y el height al 100%, sin barras de desplazamiento y ademas será RESPONSIVE*/
+}
+
+
+/*=======================/ FORMULARIO /=====================*/
+.formulario h2
+{
+	grid-column: span 2;
+	text-align: center;
+}
+
+.formulario
+{
+	background: rgb(132, 132, 132); opacity: 0.8;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 20px;
+	padding: 20px 20px;
+	margin-top: 100px;
+	position: relative;
+}
+
+.formulario__label
+{
+	display: block;
+	font-weight: 800;
+	padding: 10px;
+	cursor: pointer;
+	font-size: 20px;
+	color: black;
+}
+
+.formulario__label .aviso
+{
+	color: red;
+	font-size: 15px;
+	text-align: center;
+}
+
+.formulario__grupo-input
+{
+	position: relative;
+}
+
+.formulario__input
+{
+	width: 100%;
+	background: #fff;
+	border: 3px solid transparent;
+	border-radius: 5px;
+	height: 45px;
+	line-height: 45px;
+	padding: 0 40px 0 10px;
+	transition: 0.5s ease all;
+}
+
+.formulario__input:focus
+{
+	border: 3px solid #00b7ff;
+	outline: none; /* Le quita el subrayado negro por default para que tenga el color elegido del border*/
+	box-shadow: 3px 0 30px rgba(163,163,163,0.4);
+}
+
+.formulario__input-error
+{
+	font-size: 15px;
+	margin-top: 10px;
+	display: none;
+}
+
+.formulario__input-error-activo
+{
+	display: block;
+}
+
+.formulario__validacion-estado
+{
+	position: absolute;
+	right: 20px;
+	bottom: 13px;
+	z-index: 100; /*para asegurarnos que siempre estara arriba de otros elementos*/
+	font-size: 20px;
+	opacity: 0;
+}
+
+.formulario__checkbox
+{
+	margin-right: 10px;
+}
+
+.formulario__grupo-terminos, /*REVISAR (mn 33:15)*/
+.formulario__mensaje,
+.formulario__grupo-btn-enviar
+{
+	grid-column: span 2;
+}
+
+.formulario__mensaje
+{
+	height: 45px;
+	line-height: 45px;
+	background: #f66060;
+	padding: 0 15px;
+	border-radius: 5px;
+	display: none;
+}
+
+.formulario__mensaje-activo
+{
+	display: block;
+}
+
+.formulario__mensaje p
+{
+	margin: 0%; /* para que poner esto si se puede quitar el line-height: 45px; de arriba*/
+}
+
+.formulario__grupo-btn-enviar
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.formulario__btn
+{
+	height: 45px;
+	line-height: 45px;
+	width: 30%;
+	background: rgb(255, 0, 0);
+	color: #fff;
+	font-weight: bold;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.5s ease all;
+}
+
+.formulario__btn:hover
+{
+	box-shadow: 0px 0 30px rgb(61, 61, 61);
+}
+
+.formulario__mensaje-exito
+{
+	font-size: 15px;
+	color: #119200;
+	display: none;
+}
+
+.formulario__mensaje-exito-activo
+{
+	display: block;
+}
+
+
+/* ----- -----  Estilos para Validacion ----- ----- */
+.formulario__grupo-correcto .formulario__validacion-estado
+{
+	color: #1ed12d;
+	opacity: 1; 
+}
+
+.formulario__grupo-incorrecto .formulario__label
+{
+	color: #bb2929;
+}
+
+.formulario__grupo-incorrecto .formulario__validacion-estado
+{
+	color: #bb2929;
+	opacity: 1;
+}
+
+.formulario__grupo-incorrecto .formulario__input
+{
+	border: 3px solid #bb2929;;
+}
+
+
+/* ----- -----  Mediaqueries ----- ----- */
+@media screen and (max-width: 800px)
+{
+	.formulario
+	{
+		grid-template-columns: 1fr ;
+	}
+
+	.formulario__grupo-terminos, /*REVISAR (mn 33:15)*/
+	.formulario__mensaje,
+	.formulario__grupo-btn-enviar
+	{
+		grid-column: 1;
+	}
+
+	.formulario__btn
+	{
+		width: 100%;
+	}
+}

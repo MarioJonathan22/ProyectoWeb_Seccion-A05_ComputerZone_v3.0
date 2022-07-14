@@ -1,0 +1,368 @@
+/*===============/ BARRA MENU /==================*/
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body
+{
+    /*background: rgb(235, 235, 235);*/
+    font-family: "comfortaa";
+
+}
+
+nav
+{
+    background: rgb(97, 97, 97); /* fondo de color del menu*/
+    height: 100px; /* por el tamaño de la imagen*/
+    width: 100%;
+    top: 0%;
+    position: fixed;
+}
+
+nav .enlace
+{
+    position: absolute; /* es como ponerse encima pero en su unico lugar*/
+    margin-left: 50px;
+}
+
+nav .enlace .logo /*dimension del logo*/
+{
+
+    width: 100%;
+}
+
+nav ul
+{
+    float: right;
+    margin-right: 50px;
+}
+
+nav ul li
+{
+    display: inline-block;
+    line-height: 100px; /* desde arriba de la linea donde estan los link hacia abajo (cae justo al medio del  nav) */
+}
+
+nav ul li a
+{
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 10px 10px;
+    border-radius: 30px;
+    transition: all 0.3s;
+
+}
+
+nav ul li a:hover
+{
+    background: red;
+    border: 3px solid white;
+}
+
+
+
+/* =================================/ MAIN /================================ */
+
+main
+{
+    display: flex;
+    flex-direction: row; /*para que LISTA MENU y LISTA PRODUCTOS nose separen*/
+
+    margin: 100px 100px 0 100px;
+
+}
+
+/* ==========/ LISTA IZQUIERDA /========== */
+
+main .lista
+{
+    min-width: 20%;
+}
+
+.icon
+{
+    margin-right: 10px;
+}
+
+.nav
+{
+    background: rgb(160, 160, 160); 
+    border-radius: 25px;
+    margin: 30px 0;
+
+}
+
+.nav li a
+{
+    color: white;
+    width: 100%;
+
+    display: flex; /*para acomodar en fila el ICONO y el LINK con flex y align*//*GRACIAS A ESTO EL HOVER OCUPA TODO EL ANCHO*/
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.nav > li
+{
+
+    padding: 0px 0; /*puse todo 0 porque puse display flex en la linea 106 de (.nav li a)*/
+
+}
+
+
+.nav > li > a /*Use "maqyor que" para que estas propiedades solo las tenga (li) y (a) y no el submenu*/
+{
+    padding: 15px 25px;
+    border-radius: 25px;
+
+}
+
+.nav li a:hover
+{
+    transition: all 0.3s ease-in-out;
+    background: red;
+    color: white;
+    font-weight: bolder;
+}
+
+
+
+/*=======/ SUB MENU /======*/
+
+.nav li .sub
+{
+    display: none;
+    position: absolute;
+   
+}
+
+.nav li .sub li
+{
+    padding: 15px 15px;
+}
+
+.nav li:hover > .sub
+{
+    display: block;
+    margin-top: -62px; /*para acomodarlo al nivel del link padre*/
+    left: 372px;
+    width: 200px;
+    border-radius: 20px;
+    background: red;
+    color: white;
+    font-weight: bolder;
+}
+
+.nav li:hover > .sub li
+{
+    cursor: pointer;
+}
+
+.nav li:hover > .sub .up:hover 
+{
+    background: rgb(97, 97, 97);
+    border-top-left-radius:  20px;
+    border-top-right-radius: 20px;
+}
+
+
+.nav li:hover > .sub .down:hover 
+{
+    background: rgb(97, 97, 97);
+    border-bottom-left-radius:  20px;
+    border-bottom-right-radius:  20px;
+}
+
+/* =============/ LISTA PRODUCTOS /============= */
+
+a.foto
+{
+    display: block;
+    text-align: center;
+}
+
+h6
+{
+    color: rgb(0, 160, 0);
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+.categoria
+{
+    font-size: 12px;
+    color: #868686;
+}
+
+.titulo
+{
+    font-weight: bolder;
+    color: #000;
+
+}
+
+.precio
+{
+    padding: 10px 0;
+    color: red;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+/*----/ BOTON AÑADIR CARRITO /----=*/ 
+
+.añadir
+{
+    background: red;
+    padding: 10px 0;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+}
+
+.añadir:hover
+{
+    transition: all 0.3s ease;
+    background: #000;
+}
+
+.añadir a
+{
+    color: white;
+    font-weight: bolder;
+
+}
+
+/*--------------------------------=*/ 
+
+main div.productos
+{
+    min-width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    /*flex: 80%; /*ancho de la lista de productos, DESACTIVADO para probar flex en MAIN (contenedor princiapl)*/
+    grid-template-columns: 4fr;
+}
+
+main div.productos
+{
+    display: grid; /* para dividir los grupos*/ 
+    grid-template-columns: 1fr 1fr 1fr 1fr; /* columnas divididas en 4 */
+    gap: 30px;
+    padding: 20px 20px;
+}
+
+main div ul li div a /*quitamos el subrayados de los links*/
+{
+    text-decoration: none;
+}
+
+
+/* ================== FOOTER ====================== */
+
+footer
+{
+    font-size: 15px;
+    max-width: 100%;
+    width: 100%;
+}
+
+footer .final
+{
+    background-color: rgb(156, 155, 155); opacity: 0.9;
+    padding: 20px 0;
+}
+
+footer .final .fila
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+footer .logo-footer
+{
+    width: 100%;
+}
+
+footer ul
+{
+    padding-left: 0;
+    list-style: none;
+}
+
+footer ul li
+{
+    margin: 10px 0;
+}
+
+footer a
+{
+    text-decoration: none;
+}
+
+footer .redes
+{
+    font-size: 20px;
+}
+
+/* ========/ PEQUEÑO FORMULARIO /========= */
+form
+{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 90%;
+}
+
+form input[type="text"], form input[type="email"], form textarea
+{
+    margin: 1px 0;
+    padding: 5px 5px;
+    border-radius: 10px;
+    color: rgb(204, 5, 5);
+    font-weight: 600;
+    font-family: 'Comfortaa';    
+    font-size: 15px;
+}
+
+form textarea
+{
+    height: 100px;
+    border-radius: 10px;
+}
+
+form .boton
+{
+    display: flex;
+    justify-content: flex-end;
+}
+
+form .boton input[type="submit"]
+{
+    display: block;
+    margin: 5px 0;
+    padding: 5px 5px;
+    background: none;
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+form .boton input[type="submit"]:hover
+{
+    background: #D57500;
+}

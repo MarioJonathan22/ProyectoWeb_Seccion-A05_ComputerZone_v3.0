@@ -1,0 +1,296 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-image: url(../img/fondo1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Comfortaa';
+}
+
+/*========================/ menu /========================*/
+header
+{
+    background-image: url(../img/niños.jpg); opacity: 0.9;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.contenedor
+{
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    overflow: hidden;
+}
+
+header .menu
+{
+    margin: 30px 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+header .menu a
+{
+    font-size: 20px;
+    font-weight: 800;
+    display: inline-block;
+    padding: 10px 5px;
+    margin: 5px 15px;
+    color: #fff;
+    text-decoration: none;
+}
+
+header .menu a:hover
+{
+    background: white; opacity: 0.9s;
+    color: blueviolet;
+}
+
+header .contenedor-header
+{
+    margin: 90px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+header .contenedor-header .titulo-header
+{
+    font-size: 100px;
+    text-align: center;
+    color: #fff;
+}
+
+/*========================/ cuerpo, descripcion /========================*/
+section
+{
+    max-width: 1100px;
+    width: 100%;
+}
+
+section.quienes-somos
+{
+    background-color: #fff; opacity: 0.9;
+    margin: 0 auto;
+    padding: 35px 0; /*arriba y abajo 35px*/
+}
+
+section.quienes-somos .contenido
+{
+    padding: 0; /*arriba ya tiene padding 35px*/
+    margin: 0 auto;
+    width: 100%;
+}
+
+section .row
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row; /*al parecer no pasada, si lo quito tampoco */
+    justify-content: space-around;
+
+}
+
+section.quienes-somos .contenido .foto1
+{
+    flex: 0 0 40%;
+    align-self: center !important;
+    margin: auto;
+}
+
+section.quienes-somos .contenido .descripcion
+{
+    text-align: left;
+    font-size: 18px;
+    flex: 0 0 50%;
+    align-self: center !important;
+}
+
+/*=======================/ descripcion, tiempo /======================*/
+section.camino-tiempo
+{
+    background-color: #fff; opacity: 0.9;
+    margin: auto;
+    padding: 35px 0;
+}
+
+.camino-tiempo .tiempo
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.camino-tiempo .columna
+{
+    width: 33.33%;
+    text-align: center;
+}
+
+.columna img
+{
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.columna .titulo
+{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.columna .parrafo
+{
+    width: 80%;
+    margin: auto;
+}
+
+/*================MISION Y VISION =================*/
+section.v-m
+{
+    background: #fff; opacity: 0.9;
+    margin: auto;
+}
+
+section .row
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+div .barra /************** BARRA*************** */
+{
+    border-left: 1px solid silver;
+    height: 150px;
+    margin: 0 50px;
+    align-self: center !important;
+}
+/***********************************************/
+
+section .mision, section .vision
+{
+    width: 30%;
+    justify-content: space-around;
+
+}
+
+section .titulo
+{
+    text-align: center;
+    margin: 15px;
+    font-size: 40px;
+}
+
+p.v-m-parrafo
+{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+
+/*================== FOOTER ======================*/
+
+footer
+{
+    font-size: 20px;
+    margin: 0 auto;
+    width: 100%;
+    left: 50%;
+    margin-left: 3px;
+    top: 0;
+}
+
+footer .final
+{
+    background-color: rgb(156, 155, 155); opacity: 0.9;
+    padding: 20px 0;
+}
+
+footer .final .row
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+footer .logo-footer
+{
+    width: 100%;
+}
+
+footer ul
+{
+    padding-left: 0;
+    list-style: none;
+}
+
+footer ul li
+{
+    margin: 10px 0;
+}
+
+footer a
+{
+    text-decoration: none;
+}
+
+footer .redes
+{
+    font-size: 20px;
+}
+
+form
+{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 90%;
+}
+
+form input[type="text"], form input[type="email"], form textarea
+{
+    margin: 1px 0;
+    padding: 10px 10px;
+    border-radius: 10px;
+    color: rgb(204, 5, 5);
+    font-weight: 600;
+    font-family: 'Comfortaa';    
+    font-size: 15px;
+}
+
+form .boton
+{
+    display: flex;
+    justify-content: flex-end;
+}
+
+form .boton input[type="submit"]
+{
+    display: block;
+    margin: 10px 0;
+    padding: 5px 5px;
+    background: none;
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+form .boton input[type="submit"]:hover
+{
+    background: #D57500;
+}

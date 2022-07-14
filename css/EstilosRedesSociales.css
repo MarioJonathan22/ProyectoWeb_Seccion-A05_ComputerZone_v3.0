@@ -1,0 +1,78 @@
+@charset "utf-8";
+/* CSS Document */ 
+
+*
+{
+	margin:0;
+	padding:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+
+.social
+{
+	position:fixed;
+	left:0;
+	top:140px;
+	z-index:2000;
+
+	
+}
+
+.social ul
+{
+	list-style:none;
+}
+
+.social ul li a{
+	display:inline-block;
+	color: 	#fff;
+	background:#000;
+	padding: 15px 15px;
+	margin-bottom: 5px;
+	text-decoration:none;
+	-webkit-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	transition:all 500ms ease;
+	border-radius: 50px;
+	font-size: 30px;
+	-ms-zoom-animation: 20%;
+	
+	
+}
+
+.social ul li .icon-facebook{background:#0099ff;}
+.social ul li .icon-instagram{background:#bd28df;}
+.social ul li .icon-youtube{background:#ff0000;}
+.social ul li .icon-whatsapp{background:#0ac500;}
+.social ul li .icon-telegram{background:#0088cc;}
+.social ul li .icon-google{background:#efd706;}
+.social ul li .icon-twitter{background:#05c5bb;}
+.social ul li .icon-twitch{background:#ba65e1;}
+.social ul li .icon-skype{background:#04acd1;}
+.social ul li .icon-spotify{background:#1e9e0a;}
+
+.social ul li a:hover
+{
+	padding: 15px 30px;
+	background:rgb(110, 110, 110);
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
